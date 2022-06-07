@@ -17,6 +17,14 @@
     display: flex;
 }
 
+.trybewarts-header-logo {
+    width: 70px;
+}
+
+.flex-container .flex-containers {
+    display: flex;
+}
+
 .flex-container {
     width: 675px;
 }
@@ -25,3 +33,4 @@
     display: flex;
     flex-direction: column;
 }
+
