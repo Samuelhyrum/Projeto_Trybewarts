@@ -20,3 +20,7 @@
     width: 675px;
 }
 
+#evaluation-form {
+    display: flex;
+    flex-direction: column;
+}
