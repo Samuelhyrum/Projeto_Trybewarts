@@ -5,7 +5,6 @@
 }
 
 .trybewarts-login {
-
   display: flex;
 }
 
@@ -17,9 +16,6 @@
   display: flex;
 }
 
-.trybewarts-header-logo {
-  width: 70px;
-}
 .flex-containers .flex-container {
   width: 675px;
   display: flex;
@@ -29,6 +25,15 @@
   display: flex;
   flex-direction: column;
 }
+
 #trybewarts-forms-logo {
   height: 500px;
+}
+
+.div1{
+  display: flex;
+}
+
+.div2{
+  display: flex;
 }
