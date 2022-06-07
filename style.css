@@ -30,15 +30,15 @@
   height: 500px;
 }
 
-.div1{
+.div1 {
   display: flex;
 }
 
-.div2{
+.div2 {
   display: flex;
 }
 
-#label-family{
+#label-family {
   display: flex;
   flex-direction: column;
 }
