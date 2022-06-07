@@ -40,7 +40,6 @@
 
 /* #label-family {
   display: flex;
- 
 } */
 
 /* #label-content {
@@ -52,3 +51,14 @@
   display: flex;
   flex-wrap: wrap;
 } */
+
+.divMaster {
+  display: flex;
+  justify-content: space-around;
+}
+
+#submit-btn {
+  background-color: darksalmon;
+  border-radius: 5px;
+  color: black;
+}
