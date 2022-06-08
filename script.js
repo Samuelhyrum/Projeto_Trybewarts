@@ -5,7 +5,6 @@ const submitBtn = document.getElementById('submit-btn');
 const checkbox = document.getElementById('agreement');
 submitBtn.disabled = true;
 
-
 function validateInput() {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
     alert('Olá, Tryber!');
