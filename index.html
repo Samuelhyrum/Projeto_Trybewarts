@@ -79,7 +79,8 @@
             </label>
             <br>
             <label for="" class="textarea">Deixe seu comentário:
-                <textarea name="" id="" maxlength="500" cols="70" rows="5"></textarea>
+                <textarea onkeyup="limite_textarea(this.value)"name="" id="textarea" maxlength="500" cols="70" rows="5"></textarea>
+                <span id="counter">500</span> Restantes <br>
             </label>
             <br>
             <div>

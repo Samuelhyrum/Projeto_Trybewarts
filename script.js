@@ -23,3 +23,14 @@ function submitButton() {
   }
 }
 checkbox.addEventListener('change', submitButton);
+
+function limite_textarea(valor) {
+  const quant = 500;
+  let total = valor.length;
+  if (total <= quant) {
+    resto = quant - total;
+    document.getElementById('counter').innerHTML = resto;
+  } else {
+    document.getElementById('textarea').value = valor.substr(0, quant);
+  }
+}
